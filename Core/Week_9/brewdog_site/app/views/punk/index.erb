@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <h1 class="title">List all beers</h1>
+    </div>
+  </div>
+  <% @beers.get_all_beers.each do |beer| %>
+    <div class="card">
+      <div class="img-container">
+        <img class="text-center" src="<%= beer['image_url'] %>" alt="" style="width: 30%; margin:auto;">
+      </div>
+      <div class="card-container">
+        <h4><b><%= beer['name'] %></b></h4>
+        <a class="link" href="/punk/<%= beer['id'] %>">More Info</a>
+      </div>
+    </div>
+  <% end %>
+
+</div>

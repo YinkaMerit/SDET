@@ -1,0 +1,154 @@
+body, html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-position: center;
+  background-image: url('images/stage.png');
+  background-size: cover;
+  color: white;
+
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+.title {
+  position: absolute;
+  font-size: 2em;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*
+.dog {
+  position: absolute;
+  top: 500px;
+  width: 190px;
+  height: 200px;
+  background-image: url("images/dog.png"); */
+  /* background: no-repeat; */
+  /* bottom: 3;
+  transition: left, top, right, bottom;
+  transition-duration: 1.0s;
+  transition-timing-function: linear;
+} */
+
+
+/*
+.dog.leftstep {
+  background-image: url("images/dog.png");
+  background-position: 0px 345px;
+}
+
+.dog.leftstep.walk {
+
+  background-image: url("images/dog.png");
+  background-position: 0px 345px;
+}
+
+.dog.rightstep {
+
+  background-image: url("images/dog.png");
+  background-position: 0px 350px;
+}
+.dog.rightstep.walk {
+
+  background-image: url("images/dog.png");
+  background-position: 0px 350px;
+} */
+/*
+@keyframes dogMove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 450px;
+  }
+}
+@keyframes dogMove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 450px;
+  }
+}
+@keyframes dogWalk {
+  0% {
+    background-position: 0px 0px;
+  }
+  3% {
+    background-position: -120px 0px;
+  }
+  6% {
+    background-position: -240px 0px;
+  }
+  9% {
+    background-position: -360px 0px;
+  }
+  12% {
+    background-position: 0px 0px;
+  }
+  15% {
+    background-position: -120px 0px;
+  }
+  18% {
+    background-position: -240px 0px;
+  }
+  21% {
+    background-position: -360px 0px;
+  }
+  24% {
+    background-position: 0px 0px;
+  }
+  27% {
+    background-position: -120px 0px;
+  }
+  30% {
+    background-position: -240px 0px;
+  }
+  33% {
+    background-position: -360px 0px;
+  }
+  36% {
+    background-position: 0px 0px;
+  }
+  39% {
+    background-position: -120px 0px;
+  }
+  42% {
+    background-position: -240px 0px;
+  }
+  45% {
+    background-position: -360px 0px;
+  }
+  48% {
+    background-position: 0px 0px;
+  }
+  51% {
+    background-position: -120px 0px;
+  }
+  54% {
+    background-position: -240px 0px;
+  }
+  57% {
+    background-position: -360px 0px;
+  }
+  60% {
+    background-position: 0px 0px;
+  }
+  63% {
+    background-position: -120px 0px;
+  }
+  66% {
+    background-position: -240px 0px;
+  }
+  69% {
+    background-position: -360px 0px;
+  } */

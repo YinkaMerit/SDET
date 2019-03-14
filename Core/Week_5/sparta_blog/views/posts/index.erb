@@ -1,0 +1,9 @@
+
+    <h1>Welcome to Sparta Blogs</h1>
+
+    <% @posts.each do |post| %>
+      <div class="">
+        <h3><a href="/<%= post[:id]%>"><%=post[:title]%></a></h3>
+        <p><%= post[:body]%></p>
+      </div>
+    <% end %>

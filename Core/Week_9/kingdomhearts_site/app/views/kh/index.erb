@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <h1 class="title">List all characters</h1>
+    </div>
+  </div>
+  <% @characters.get_all_chars.each do |char| %>
+    <div class="card">
+      <div class="img-container">
+        <img class="text-center" src="<%= char['image_url'] %>" alt="" style="width: 30%; margin:auto;">
+      </div>
+      <div class="card-container">
+        <h4><b><%= char['name'] %></b></h4>
+        <a class="link" href="/punk/<%= char['id'] %>">More Info</a>
+      </div>
+    </div>
+  <% end %>
+
+</div>

@@ -1,0 +1,19 @@
+.screenshot {
+  /* padding-top:30px; */
+  width: 100%;
+}
+
+/* .card {
+  display: inline-block;
+  width: 30%;
+  border: 2px solid #e13a63;
+  text-align: center;
+  margin: 1%;
+} */
+
+.card {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #e13a63;
+  width: 30%;
+}

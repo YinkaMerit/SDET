@@ -1,0 +1,13 @@
+img {
+  height: 200px;
+  width: 200px;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+.logo {
+  height: 50px;
+  width: 90px;
+}

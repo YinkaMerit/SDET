@@ -1,0 +1,13 @@
+<h1><%= @sandwich.title %></h1>
+
+
+<br>
+<cite><%= @sandwich.description %></cite>
+
+<button type="button" name="button">
+<a href="/<%= @sandwich.id%>/edit">Edit Sandwich</a>
+</button>
+<form class="" action="<%= @sandwich.id %>" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <input type="submit" value="Delete Sandwich">
+</form>

@@ -1,0 +1,78 @@
+/* .left, .right {
+  float: left;
+  height: 200px;
+  width: 30%;
+}
+
+.left {
+  background-color: gainsboro;
+}
+
+.right {
+  background-color: fuchsia;
+}
+
+@media screen and (max-width: 550px) {
+
+  .left, .right {
+    width: 80%;
+    margin: 0 50px;
+  }
+
+  .left {
+    background-color: limegreen;
+  }
+
+  .right  {
+    background-color: red;
+  }
+}
+
+@media  screen and (min-width: 2030px) {
+
+} */
+
+body {
+  margin: 0;
+}
+
+.bar {
+  height: 100vh;
+  width: 33vw;
+  float: left;
+}
+
+.left {
+  background-color: black;
+}
+
+.center {
+  background-color: yellow;
+}
+
+.right {
+  background-color: red;
+}
+
+@media (max-width: 550px ) {
+  .bar {
+    height: 33vh;
+    width: 100vw;
+  }
+
+  /* .center {
+    background-color: red;
+  }
+
+  .right {
+    background-color: yellow;
+  } */
+
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .left {
+    order: 1;
+  }
+}

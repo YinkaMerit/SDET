@@ -1,0 +1,21 @@
+header, .experience{
+  border: 2px solid #e13a63;
+  padding: 10px;
+  display: inline-block;
+}
+
+.left {
+  float: left;
+  width: 30%;
+}
+
+.right {
+  float: right;
+  width: 70%;
+}
+
+#headshot {
+  border: 2px solid #e13a63;
+  margin: 30px auto 0px;
+  display: block;
+}

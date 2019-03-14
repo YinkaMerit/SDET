@@ -1,0 +1,67 @@
+header, section {
+	display: inline-block;
+}
+
+.left {
+	float: left;
+	width: 35%;
+}
+
+.right {
+	float: right;
+	width: 60%;
+}
+
+#headshot {
+	display: block;
+	text-align: center;
+	margin: 50px auto 0;
+	border: 2px solid #E13A63;
+}
+
+.experience {
+	display: inline-block;
+	clear: both;
+	margin-top: 30px;
+	text-align: center;
+}
+
+header, .experience {
+	border: 2px solid #E13A63;
+	padding: 10px;
+}
+
+@media (max-width: 839px) {
+	#headshot {
+	height: 200px;
+	width: 200px;
+	}
+	.right {
+		width: 60%;
+	}
+	.main-content	{
+		margin: 0 5px;
+	}
+}
+
+@media (max-width: 568px) {
+	#headshot {
+		display: none;
+	}
+	header {
+		padding: 0;
+	}
+	.right {
+		width: 100%;
+	}
+	.main-content	{
+		margin: 0 2px;
+	}
+}
+
+/* @media (max-width) {
+	.right {
+		width: 100%;
+	}
+
+} */

@@ -1,0 +1,51 @@
+.navbar a {
+  /* background-color: gainsboro !important; */
+  color: white !important ;
+}
+
+.navbar {
+  background-color: darkgrey !important;
+}
+
+.navbar a:hover {
+  color: blue !important;
+}
+
+.navbar img {
+  height: 50px !important;
+  width: 50px !important;
+  border: 1px solid black !important;
+  border-radius: 50% !important;
+}
+
+.navbar img:hover {
+  transform: scale(1.8) !important;
+}
+
+.jumbotron {
+  background-color: gainsboro !important;
+  margin: 0 !important;
+}
+
+.carousel-table {
+  background-color: gainsboro !important;
+  margin: 0 !important;
+}
+
+.card-body {
+  background-color: darkgrey !important;
+  border-radius: 5% !important;
+}
+
+.col-lg-4 {
+  padding: 0 !important;
+  border-radius: 15% !important;
+}
+
+body {
+  background-color: gainsboro !important;
+}
+
+.carousel-item {
+  border-radius: 10% !important;
+}

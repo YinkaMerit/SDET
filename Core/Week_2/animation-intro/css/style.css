@@ -1,0 +1,58 @@
+/* @keyframes movement {
+  from {left: 100px;}
+  to {left: 700px;}
+}
+
+@keyframes grow {
+  from {height: 100px;}
+  to {height: 800px;}
+}
+
+@keyframes color-change {
+  from {background-color: gainsboro;}
+  to {background-color: lightgoldenrodyellow;}
+} */
+
+@keyframes movement {
+  0%{left: 100px;}
+  50%{left: 400px}
+  100%{left: 700px;}
+}
+
+@keyframes grow {
+  from {height: 100px;}
+  to {height: 800px;}
+}
+
+@keyframes color-change {
+  0%{background-color: gainsboro;}
+  25%{background-color: blue;}
+  50%{background-color: firebrick;}
+  75%{background-color: mediumspringgreen;}
+  100%{background-color: midnightblue;}
+}
+
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: forestgreen;
+  position: relative;
+  /* animation-name: movement;
+  animation-duration: .000000000000000000001s;
+  animation-iteration-count: infinite; */
+  animation: grow 3s infinite,movement 5s infinite alternate, color-change 7s infinite alternate;
+
+}
+
+/* .box:hover {
+  background-color: fuchsia;
+}
+
+.box:active {
+  background-color: orange;
+}
+
+input:focus {
+  background-color: yellow;
+} */

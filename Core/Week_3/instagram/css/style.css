@@ -1,0 +1,124 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+.phone {
+  padding: 80px 0px 70px 150px !important;
+  height: 650px !important;
+  float: right !important;
+  margin: 10px !important;
+}
+
+body {
+  background-color: #fafafa !important;
+}
+
+.container {
+  margin-top: 20px !important;
+}
+
+.right-column {
+  background: #fff !important;
+  border: 1px solid #e6e6e6 !important;
+  width: 350px !important;
+  margin: 10px !important;
+  padding: 35px !important;
+}
+
+.instagram-logo {
+  margin: 15px auto !important;
+  height: 100px !important;
+  width: 220px !important;
+}
+
+.info {
+  font-weight: 600px !important;
+  line-height: 20px !important;
+  font-size: 17px !important;
+  color: #999 !important;
+}
+
+button img {
+  height: 18px !important;
+  padding: 0px 8px 2px !important;
+}
+
+.or {
+  font-size:  13px !important;
+  color: #999 !important;
+  font-weight: 600 !important;
+}
+
+.or::before {
+  content: '';
+  background: #efefef !important;
+  display: block !important;
+  height: 2px !important;
+  width: 110px !important;
+  position: relative !important;
+  top: 11px !important;
+}
+
+.or::after {
+  content: '';
+  background: #efefef !important;
+  display: block !important;
+  height: 2px !important;
+  width: 110px !important;
+  position: relative !important;
+  bottom: 10px !important;
+  left: 160px !important;
+}
+
+.form-group {
+  margin-bottom: 6px !important;
+}
+
+.form-control {
+  background: #fafafa !important;
+  border: 1px solid #efefef !important;
+  font-size: 12px !important;
+}
+
+::placeholder {
+  color: #999 !important;
+}
+
+.btn {
+  margin: 12px auto;
+  padding: 2px !important ;
+  padding-left: 45px !important;
+  padding-right: 45px !important;
+  font-weight: 600 !important;
+}
+
+.btn-primary {
+  background-color: #3897f0 !important;
+  border: 1px solid #3897f0 !important;
+  /* border-radius: 4px; */
+  /* color: #fff;
+  position: relative;
+  padding: 3px 20px;
+  margin-left: 200px; */
+}
+
+.terms {
+  line-height: 18px !important;
+  font-size: 14px !important;
+  color: #999 !important;
+  margin: 5px 20px !important;
+}
+
+.right-column-login {
+  background: #fff !important;
+  border: 1px solid #e6e6e6 !important;
+  width: 350px !important;
+  margin: 10px !important;
+  padding: 20px !important;
+}
+
+.right-column-login a:hover {
+  text-decoration: none !important;
+}

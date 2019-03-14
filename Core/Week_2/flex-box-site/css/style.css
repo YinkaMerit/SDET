@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* style the header */
+.header {
+  text-align: center;
+  background: #1abc9c;
+  padding: 60px;
+  color: white;
+}
+
+/* style the navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+  justify-content: flex-end;
+}
+
+/* style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/*changes color on hover*/
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* sidebar column */
+.side {
+  flex: 25%;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+/* main column */
+.main {
+  flex: 75%;
+  background-color: white;
+  padding: 20px;
+}
+
+.main > p {
+  columns: 2;
+}
+
+.img {
+  width: 100%;
+  background-color: gainsboro;
+  text-align: center;
+  padding: 20px;
+}
+
+.img-row {
+  background-color: #333;
+  flex: 1;
+  padding: 20px;
+}
+
+.content{
+  flex: 1;
+  background-color: gainsboro;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+}

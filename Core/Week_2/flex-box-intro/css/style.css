@@ -1,0 +1,44 @@
+body {
+  background-color: gainsboro;
+  margin: 0;
+}
+
+.content {
+  background-color: orange;
+  margin: 5px;
+  padding: 50px;
+}
+
+.flex-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  /* flex-direction: row;*/
+  /*flex-wrap: wrap; */
+  /*flex-flow: row wrap;*/
+  /*justify-content: flex-end;*/
+  /*align-items: flex-end;*/
+}
+
+.box1 {
+  flex:2;
+  order: 3;
+}
+.box2 {
+  flex: 2;
+  flex-shrink: 5;
+  order: 2;
+}
+.box3 {
+  flex: 1;
+  order: 4;
+}
+.box4 {
+  flex: 1;
+  order: 1;
+}
+
+@media (max-width: 550px) {
+
+
+}

@@ -1,0 +1,20 @@
+
+<form class="" action="/<%= @sandwich.id %>" method="post">
+
+  <% if @sandwich.id %>
+    <input type="hidden" name="_method" value="put">
+  <% end %>
+
+  <label for="">Title</label>
+  <input type="text" name="title" value="<%= @sandwich.title %>">
+  <br>
+  <label for="">Description</label>
+  <input type="textarea" name="description" value="<%= @sandwich.description %>">
+  <br>
+  <label for="">Image URL</label>
+  <% if !@sandwich.id %>
+    <input type="submit" value="Add Sandwich">
+  <% else %>
+    <input type="submit" value="Edit Sandwich">
+  <% end %>
+</form>
